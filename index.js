@@ -1,5 +1,5 @@
 import { romarioStyle, buttonStyle, buttonText } from "./styls.js";
-import { evenete } from "./randomColor.js"; // Importe a função evenete
+import { eventBunton } from "./randomColor.js"; // Importe a função evenete
 
 // Crie o elemento romario
 const romario = document.createElement("div");
@@ -23,4 +23,4 @@ button.textContent = buttonText.textContent;
 
 romario.appendChild(button);
 
-evenete(button); // Chame a função evenete passando o botão como argumento
+eventBunton (button); // Chame a função evenete passando o botão como argumento
